@@ -4,10 +4,10 @@ __**For Example**__
 
 The Current Supported Games Are:
 
-**Prison Life**
-**Mega Fun Obby**
-**Hide And Seek Extreme**
-**Faction Defense Tycoon**
+**Prison Life,**
+**Mega Fun Obby,**
+**Hide And Seek Extreme,**
+**Faction Defense Tycoon, And**
 **Murder Mystery 2**
 
 Below Is The Loadstring For The Script. 
