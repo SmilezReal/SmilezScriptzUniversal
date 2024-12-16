@@ -14,10 +14,6 @@ Below Is The Loadstring For The Script.
 
 **This Script Supports Every Executor Including Solara**
 
-***loadstring(game:HttpGet("https://raw.githubusercontent.com/SmilezReal/SmilezScriptzUniversal/refs/heads/main/Loader.lua",true))()***
-
 ```
-function test() {
-  console.log("This code will have a copy button to the right of it");
-}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SmilezReal/SmilezScriptzUniversal/refs/heads/main/Loader.lua",true))()
 ```
