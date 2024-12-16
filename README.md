@@ -14,4 +14,4 @@ Below Is The Loadstring For The Script.
 
 **This Script Supports Every Executor Including Solara**
 
-***loadstring(game:HttpGet("https://raw.githubusercontent.com/SmilezReal/Sm1l3zScr1pt5Un1v3r54l/refs/heads/main/Sm1l3zScr1pt5Un1v3r54l",true))()***
+***loadstring(game:HttpGet("https://raw.githubusercontent.com/SmilezReal/SmilezScriptzUniversal/refs/heads/main/Loader.lua",true))()***
