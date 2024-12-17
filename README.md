@@ -17,6 +17,9 @@
 **Murder Mystery 2 - https://www.roblox.com/games/142823291/Murder-Mystery-2**
 ![a](https://tr.rbxcdn.com/180DAY-c929c9ba9069190914f60bbfe47b6cb9/768/432/Image/Webp/noFilter)
 
+**Tower Of Hell - https://www.roblox.com/games/1962086868/Tower-of-Hell**
+![a](https://tr.rbxcdn.com/180DAY-20a372111085c33de1e64004e4dca1d8/768/432/Image/Webp/noFilter)
+
 **This Script Supports Every Executor Including Solara**
 
 ```
