@@ -6,7 +6,7 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SmilezReal/SmilezScriptzUniversal/refs/heads/main/Loader.lua",true))()
 ```
 
-**Support Games:**
+**Supported Games:**
 
 **Prison Life - https://www.roblox.com/games/155615604/Prison-Life**
 ![a](https://tr.rbxcdn.com/180DAY-3c69710523b585b62f53aa0d4c6c32ed/768/432/Image/Webp/noFilter)
