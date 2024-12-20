@@ -1,5 +1,11 @@
 **Smilez Scripts | Universal V3.0 Is A Roblox Script Slowly But Surely Adding Tons And Tons Of Popular Games From Roblox To Their Supported Games!**
 
+**This Script Supports Every Executor Including Solara**
+
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SmilezReal/SmilezScriptzUniversal/refs/heads/main/Loader.lua",true))()
+```
+
 **Support Games:**
 
 **Prison Life - https://www.roblox.com/games/155615604/Prison-Life**
@@ -22,9 +28,3 @@
 
 **Iron Man Simulator - https://www.roblox.com/games/1735775055/Iron-Man-Simulator**
 ![a](https://tr.rbxcdn.com/180DAY-e20ada525c1fbdf9c6077e944f368811/768/432/Image/Webp/noFilter)
-
-**This Script Supports Every Executor Including Solara**
-
-```
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SmilezReal/SmilezScriptzUniversal/refs/heads/main/Loader.lua",true))()
-```
