@@ -28,6 +28,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/SmilezReal/SmilezScri
 
 **Iron Man Simulator - https://www.roblox.com/games/1735775055/Iron-Man-Simulator**
 ![a](https://tr.rbxcdn.com/180DAY-e20ada525c1fbdf9c6077e944f368811/768/432/Image/Webp/noFilter)
-
-**Blox Fruits - https://www.roblox.com/games/2753915549/Blox-Fruits**
-![a](https://tr.rbxcdn.com/180DAY-e1ce51abae5188805c3fee78ec7f4d08/768/432/Image/Webp/noFilter)
