@@ -3,12 +3,12 @@ local Players = game:GetService("Players")
 
 warn("Checking Blacklist... Please Wait")
 
-game.Players.PlayerAdded:Connect(function() 
-	for _, v in pairs(game.Players:GetChildren()) do
-		for i = 1, #banned do
-			if v.UserId == banned[i] then
-				v:Kick("You Have Been Blacklisted.") -- You may set a custom message within the quotations
-			end
-		end
-	end
+-- When a new player joins the game, check if they are blacklisted
+game.Players.PlayerAdded:Connect(function(player)
+    for _, bannedUserId in pairs(banned) do
+        if player.UserId == bannedUserId then
+            player:Kick("You Have Been Blacklisted.") -- Custom message
+            return -- Exit the function if the player is kicked
+        end
+    end
 end)
