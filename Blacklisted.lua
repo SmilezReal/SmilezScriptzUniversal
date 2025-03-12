@@ -1,4 +1,4 @@
-local banned = {7394125753} -- Player UserIDs go here in the format {UserID, UserID2, UserID3}
+local banned = {} -- Player UserIDs go here in the format {UserID, UserID2, UserID3}
 local Players = game:GetService("Players")
 
 warn("Checking Blacklist... Please Wait")
