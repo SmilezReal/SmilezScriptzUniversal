@@ -2,31 +2,50 @@ warn("Checking Blacklist... Please Wait")
 
 -- Blacklisted UserIds and Player Names
 local blacklistedUserIds = {
-    7394125753,  -- Add UserIds here
-    -- Remove the null entries or replace with valid UserIds
+    nil,  -- Add UserIds here
+    -- Add more UserIds as needed
 }
 
 local blacklistedNames = {
     "SmilezMusic",  -- Add Player Names here
-    -- Remove the null entries or replace with valid names
+    -- Add more Player Names as needed
 }
 
 local blacklistReason = "You Are Blacklisted."
 
-game.Players.PlayerAdded:Connect(function(player)
-    -- Check if the player's UserId is blacklisted
-    for _, userId in pairs(blacklistedUserIds) do
-        if userId == player.UserId then
-            player:Kick(blacklistReason)
-            return
-        end
-    end
+-- Get LocalPlayer
+local player = game.Players.LocalPlayer
 
-    -- Check if the player's Name is blacklisted
-    for _, name in pairs(blacklistedNames) do
-        if name == player.Name then
-            player:Kick(blacklistReason)
-            return
-        end
+-- Check if the player's UserId is blacklisted
+local isBlacklistedByUserId = false
+for _, userId in pairs(blacklistedUserIds) do
+    if userId == player.UserId then
+        isBlacklistedByUserId = true
+        break
     end
-end)
+end
+
+-- Debugging: Print out the check result for UserId
+if isBlacklistedByUserId then
+    print("Player " .. player.Name .. " (" .. player.UserId .. ") is blacklisted by UserId.")
+    player:Kick(blacklistReason)
+else
+    print("Player " .. player.Name .. " (" .. player.UserId .. ") is not blacklisted by UserId.")
+end
+
+-- Check if the player's Name is blacklisted
+local isBlacklistedByName = false
+for _, name in pairs(blacklistedNames) do
+    if name == player.Name then
+        isBlacklistedByName = true
+        break
+    end
+end
+
+-- Debugging: Print out the check result for Name
+if isBlacklistedByName then
+    print("Player " .. player.Name .. " (" .. player.UserId .. ") is blacklisted by Name.")
+    player:Kick(blacklistReason)
+else
+    print("Player " .. player.Name .. " (" .. player.UserId .. ") is not blacklisted by Name.")
+end
