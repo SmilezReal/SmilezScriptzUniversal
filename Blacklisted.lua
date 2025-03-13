@@ -1,14 +1,33 @@
-local banned = {7394125753} -- Player UserIDs go here in the format {UserID, UserID2, UserID3}
-local Players = game:GetService("Players")
+-- player.UserId method
+local blacklisted = {
+	7394125753,  -- Add more UserIds here
+	null,
+	null
+}
 
-warn("Checking Blacklist... Please Wait")
+local blacklistReason = "You are blacklisted from the game."
 
--- When a new player joins the game, check if they are blacklisted
 game.Players.PlayerAdded:Connect(function(player)
-    for _, bannedUserId in pairs(banned) do
-        if player.UserId == bannedUserId then
-            player:Kick("You Have Been Blacklisted.") -- Custom message
-            return -- Exit the function if the player is kicked
-        end
-    end
+	for i,v in pairs(blacklisted) do
+		if v == player.UserId then
+			player:Kick(blacklistReason)
+		end
+	end
+end)
+
+-- player.Name method
+local blacklisted = {
+	"SmilezMusic",  -- Add more Player names here
+	"null",
+	"null"
+}
+
+local blacklistReason = "You are blacklisted from the game."
+
+game.Players.PlayerAdded:Connect(function(player)
+	for i,v in pairs(blacklisted) do
+		if v == player.Name then
+			player:Kick(blacklistReason)
+		end
+	end
 end)
