@@ -7,7 +7,7 @@ local blacklistedUserIds = {
 }
 
 local blacklistedNames = {
-    "nil",  -- Add Player Names here
+    "imsilly13",  -- Add Player Names here
     -- Add more Player Names as needed
 }
 
