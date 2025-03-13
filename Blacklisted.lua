@@ -1,3 +1,5 @@
+warn("Checking Blacklist... Please Wait")
+
 -- Blacklisted UserIds and Player Names
 local blacklistedUserIds = {
     7394125753,  -- Add UserIds here
