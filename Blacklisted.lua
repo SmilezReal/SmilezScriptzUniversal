@@ -27,10 +27,10 @@ end
 
 -- Debugging: Print out the check result for UserId
 if isBlacklistedByUserId then
-    print("Player " .. player.Name .. " (" .. player.UserId .. ") is blacklisted by UserId.")
+    print("Player " .. player.Name .. " (" .. player.UserId .. ") Is Blacklisted By UserId.")
     player:Kick(blacklistReason)
 else
-    print("Player " .. player.Name .. " (" .. player.UserId .. ") is not blacklisted by UserId.")
+    print("Player " .. player.Name .. " (" .. player.UserId .. ") Is Not Blacklisted By UserId.")
 end
 
 -- Check if the player's Name is blacklisted
@@ -44,8 +44,8 @@ end
 
 -- Debugging: Print out the check result for Name
 if isBlacklistedByName then
-    print("Player " .. player.Name .. " (" .. player.UserId .. ") is blacklisted by Name.")
+    print("Player " .. player.Name .. " (" .. player.UserId .. ") Is Blacklisted By Name.")
     player:Kick(blacklistReason)
 else
-    print("Player " .. player.Name .. " (" .. player.UserId .. ") is not blacklisted by Name.")
+    print("Player " .. player.Name .. " (" .. player.UserId .. ") Is Not Blacklisted By Name.")
 end
