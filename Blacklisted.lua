@@ -5,7 +5,7 @@ local blacklisted = {
 	null
 }
 
-local blacklistReason = "You are blacklisted from the game."
+local blacklistReason = "You Are Blacklisted."
 
 game.Players.PlayerAdded:Connect(function(player)
 	for i,v in pairs(blacklisted) do
@@ -22,7 +22,7 @@ local blacklisted = {
 	"null"
 }
 
-local blacklistReason = "You are blacklisted from the game."
+local blacklistReason = "You Are Blacklisted."
 
 game.Players.PlayerAdded:Connect(function(player)
 	for i,v in pairs(blacklisted) do
