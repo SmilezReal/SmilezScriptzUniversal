@@ -13,7 +13,7 @@ local blacklistedNames = {
     "null"
 }
 
-local blacklistReason = "You are blacklisted from the game."
+local blacklistReason = "You Are Blacklisted."
 
 game.Players.PlayerAdded:Connect(function(player)
     -- Check if the player's UserId is blacklisted
