@@ -3,14 +3,12 @@ warn("Checking Blacklist... Please Wait")
 -- Blacklisted UserIds and Player Names
 local blacklistedUserIds = {
     7394125753,  -- Add UserIds here
-    null,
-    null
+    -- Remove the null entries or replace with valid UserIds
 }
 
 local blacklistedNames = {
     "SmilezMusic",  -- Add Player Names here
-    "null",
-    "null"
+    -- Remove the null entries or replace with valid names
 }
 
 local blacklistReason = "You Are Blacklisted."
