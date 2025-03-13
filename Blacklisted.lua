@@ -2,12 +2,12 @@ warn("Checking Blacklist... Please Wait")
 
 -- Blacklisted UserIds and Player Names
 local blacklistedUserIds = {
-    nil,  -- Add UserIds here
+    7904083322,  -- Add UserIds here
     -- Add more UserIds as needed
 }
 
 local blacklistedNames = {
-    "SmilezMusic",  -- Add Player Names here
+    "nil",  -- Add Player Names here
     -- Add more Player Names as needed
 }
 
