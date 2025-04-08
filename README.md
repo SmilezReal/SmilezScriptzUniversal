@@ -3,7 +3,7 @@
 **This Script Supports Every Executor Including Solara**
 
 ```
-https://smilezscriptzuniversal.vercel.app
+https://smilezscriptzuniversal.vercel.app/getscript
 ```
 
 **Supported Games:**
