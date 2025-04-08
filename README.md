@@ -3,7 +3,7 @@
 **This Script Supports Every Executor Including Solara**
 
 ```
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SmilezReal/SmilezScriptzUniversal/refs/heads/main/Loader.lua",true))()
+https://smilezscriptzuniversal.vercel.app
 ```
 
 **Supported Games:**
