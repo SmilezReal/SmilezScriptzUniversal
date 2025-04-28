@@ -1,3 +1,5 @@
+THIS HAS BEEN DISCONTINUED AS OF 4/28/2025
+
 **Smilez Scriptz Universal | V3.0 Is A Roblox Script Slowly But Surely Adding Tons And Tons Of Popular Games From Roblox To Their Supported Games!**
 
 **This Script Supports Every Executor Including Solara**
